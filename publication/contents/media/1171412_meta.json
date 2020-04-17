@@ -1,0 +1,53 @@
+{
+  "id" : 1171412,
+  "type" : 4,
+  "src" : "$media$1171412.jpg",
+  "icon" : "$media$1171412.jpg",
+  "label" : "portada121.jpg",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2020-04-16 15:57:08",
+  "lastUpdateDate" : "2020-04-16 15:57:08",
+  "beginDate" : "2020-04-16 15:57:08",
+  "version" : 0,
+  "name" : "portada121.jpg",
+  "parent" : 1156801,
+  "originalFile" : "1171412.jpg",
+  "originalFileSize" : 2869468,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "1171412" : "default"
+  },
+  "resolutions" : {
+    "default" : {
+      "supported" : [ "jpg", "tif", "gif", "png", "jpeg" ],
+      "sizes" : [ {
+        "width" : 1920,
+        "height" : 1440,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 960,
+        "height" : 720,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "resolution" : "2551x3579"
+}

@@ -1,0 +1,53 @@
+{
+  "id" : 1146243,
+  "type" : 4,
+  "src" : "$media$1146243.jpg",
+  "icon" : "$media$1146243.jpg",
+  "label" : "down 3.jpg",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2020-02-19 14:46:09",
+  "lastUpdateDate" : "2020-02-19 14:46:09",
+  "beginDate" : "2020-02-19 14:46:09",
+  "version" : 1,
+  "name" : "down-3.jpg",
+  "parent" : 1111765,
+  "originalFile" : "1146243.jpg",
+  "originalFileSize" : 30430,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "1146243" : "default"
+  },
+  "resolutions" : {
+    "default" : {
+      "supported" : [ "jpg", "tif", "gif", "png", "jpeg" ],
+      "sizes" : [ {
+        "width" : 1920,
+        "height" : 1440,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 960,
+        "height" : 720,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "resolution" : "57x119"
+}

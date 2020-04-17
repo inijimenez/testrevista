@@ -1,0 +1,53 @@
+{
+  "id" : 1137019,
+  "type" : 4,
+  "src" : "$media$1137019.jpg",
+  "icon" : "$media$1137019.jpg",
+  "label" : "Sin título-1.jpg",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2020-02-04 17:40:38",
+  "lastUpdateDate" : "2020-02-04 17:40:38",
+  "beginDate" : "2020-02-04 17:40:38",
+  "version" : 0,
+  "name" : "sin-titulo-1.jpg",
+  "parent" : 1111765,
+  "originalFile" : "1137019.jpg",
+  "originalFileSize" : 1422335,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "1137019" : "default"
+  },
+  "resolutions" : {
+    "default" : {
+      "supported" : [ "jpg", "tif", "gif", "png", "jpeg" ],
+      "sizes" : [ {
+        "width" : 1920,
+        "height" : 1440,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 960,
+        "height" : 720,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "resolution" : "484x138"
+}

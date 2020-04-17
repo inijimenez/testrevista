@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?><root>
+  <menu_config>
+    <mode name="default">
+      <menu name="menu-left">
+        <element name="menu"/>
+      </menu>
+      <menu name="menu-center">
+        <element name="logo">
+          <file href="https://www.abogacia.es/" url="${media}1137019.jpg"/>
+        </element>
+      </menu>
+      <menu name="menu-burger">
+        <element name="documentback"/>
+        <element name="share_btn"/>
+        <element name="thumbnails_btn"/>
+        <element name="pdf_btn"/>
+        <element name="fullscreen_btn"/>
+        <element name="search_btn"/>
+      </menu>
+      <menu name="menu-right"/>
+</mode>
+    <mode name="desktop">
+      
+      
+      
+      <panel_view_control enable="true">
+        <element enable="true" name="page_range"/>
+        <element enable="true" name="zoom_less"/>
+        <element enable="true" name="zoom_range"/>
+        <element enable="true" name="zoom_more"/>
+        <element enable="true" name="fullscreen_toggle"/>
+        <element enable="true" name="zoom_reset"/>
+      </panel_view_control>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<menu name="menu-burger">
+<element name="documentback"/>
+<element name="share_btn"/>
+<element name="thumbnails_btn"/>
+<element name="pdf_btn"/>
+<element name="fullscreen_btn"/>
+<element name="search_btn"/>
+</menu>
+<menu name="menu-center">
+<element name="page_control"/>
+</menu>
+<menu name="menu-left">
+<element name="logo">
+<file href="https://www.abogacia.es/" url="${media}1137019.jpg"/>
+</element>
+</menu>
+<menu name="menu-right">
+<element name="search_btn"/>
+<element name="share_btn"/>
+<element name="fullscreen_btn"/>
+<element label="Ver otros números de la revista" name="custom" style="height: 100%">
+<a href="https://www.abogacia.es/publicaciones/revistas/" style="display: inline-block;height:100%" target="_blank">
+<img height="100%" src="${media}1145091.jpg"/>
+</a>
+</element>
+<element label="Descargar PDF" name="custom" style="height: 100%">
+<a href="https://www.abogacia.es/revista/revistaabogacia/120/revista120.pdf" style="display: inline-block;height:100%" target="_blank">
+<img height="100%" src="${media}1146243.jpg"/>
+</a>
+</element>
+<element name="thumbnails_btn"/>
+<element label="Ir a índice" name="custom" style="height: 100%">
+<a href="javascript:void(document.dispatchEvent(new CustomEvent('WebPublicationAction', {'detail':{'type':'goToPage','params':{'page':4}}})));" style="display: inline-block;height:100%" target="_self">
+<img height="100%" src="${media}1143382.jpg"/>
+</a>
+</element>
+</menu>
+</mode>
+    <mode name="tablet">
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<menu name="menu-burger">
+<element name="documentback"/>
+<element name="share_btn"/>
+<element name="thumbnails_btn"/>
+<element name="pdf_btn"/>
+<element name="fullscreen_btn"/>
+<element name="search_btn"/>
+</menu>
+<menu name="menu-center">
+<element name="logo">
+<file href="https://www.abogacia.es/" url="${media}1137019.jpg"/>
+</element>
+</menu>
+<menu name="menu-left">
+<element name="menu"/>
+</menu>
+<menu name="menu-right">
+<element name="pagemark_btn"/>
+<element name="share_btn"/>
+<element name="thumbnails_btn"/>
+</menu>
+</mode>
+    <mode name="mobile">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<menu name="menu-burger">
+<element name="documentback"/>
+<element name="share_btn"/>
+<element name="thumbnails_btn"/>
+<element name="pdf_btn"/>
+<element name="fullscreen_btn"/>
+<element name="search_btn"/>
+</menu>
+<menu name="menu-center">
+<element name="logo">
+<file href="https://www.abogacia.es/" url="${media}1137019.jpg"/>
+</element>
+</menu>
+<menu name="menu-left">
+<element name="menu"/>
+</menu>
+<menu name="menu-right"/>
+</mode>
+  </menu_config>
+  <modules>
+    <mode name="default">
+      <module asynchronous="true" enable="true" name="CustomBrand" parameters="{           url:'',           text: '',           style: {               left: 'auto',               right: '10px',               top: 'auto',               bottom: '10px',               fontSize: '9px',               color:'rgba(0,0,0,1)'             }           }" path="./publication/mobile/modules/customBrand" userAgentFilter="desktop" version="1.0.0">
+        <![CDATA[<a href="{{url}}" target="_blank">{{text}}</a>]]>
+      </module>
+      <module asynchronous="true" enable="true" name="adminApi" parameters="{}" path="./publication/mobile/modules/adminApi" userAgentFilter="backofficeMode" version="1.0.0">
+      </module>
+      <module asynchronous="true" enable="true" name="lightbox-welcome" parameters="{           matchHash: 'welcome',           param: 'http://webpublication.fr/',           id: 'webpublication.fr',           theme: 'theater',           animation: 'none',           header: 'none'         }" path="./publication/mobile/modules/routerLightbox" userAgentFilter="tab|mobile|desktop|phablet" version="1.0.0">
+      </module>
+    </mode>
+  </modules>
+  <template>
+    <asset name="config" url="${template}config.xml"/>
+    <asset name="interface" url="${template}ui.xml"/>
+    <asset name="css" url="${template}styles.css"/>
+    <asset name="css_html5" url="${template}styles_flash.css"/>
+    <asset name="locale" url="${locale_folder}messages_${locale}.xml"/>
+  <asset name="epub-idGeneratedStyles" url="${epub_folder}css/css.css"/>
+<asset name="custom_javascript" url="${epub_folder}script/customJavascript.js"/>
+</template>
+  <services>
+    <service id="pdfmerge" url="${manager_host}/services/rest/playerGateway/pdfmerge"/>
+    <service id="sendmail" url="${manager_host}/services/rest/playerGateway/sendmail"/>
+  </services>
+  <configs>
+    <viewer>
+      <mode name="desktop">
+        <zoom clicks="2" max_scale="2"/>
+        <page margin="0 0 0 0" max_height="auto" max_width="auto" swipe="true" transition_time="0.2"/>
+      </mode>
+      <mode name="default">
+        <popup default_mode="fullscreen" filters="*"/>
+      </mode>
+    </viewer>
+    <!-- <page_layout value="" /> -->
+    <page_layout_html value="best"/>
+    <deep_linking value="true"/>
+    <cookie enabled="true" gdpr="false" url="https://www2.abogacia.es/informacion-sobre-cookies/"/>
+  <page_layout first_frame="1" value="best"/>
+</configs>
+</root>

@@ -1,0 +1,53 @@
+{
+  "id" : 1145091,
+  "type" : 4,
+  "src" : "$media$1145091.jpg",
+  "icon" : "$media$1145091.jpg",
+  "label" : "revistas 2.jpg",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2020-02-15 05:35:13",
+  "lastUpdateDate" : "2020-02-15 05:35:13",
+  "beginDate" : "2020-02-15 05:35:13",
+  "version" : 1,
+  "name" : "revistas-2.jpg",
+  "parent" : 1111765,
+  "originalFile" : "1145091.jpg",
+  "originalFileSize" : 33513,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "1145091" : "default"
+  },
+  "resolutions" : {
+    "default" : {
+      "supported" : [ "jpg", "tif", "gif", "png", "jpeg" ],
+      "sizes" : [ {
+        "width" : 1920,
+        "height" : 1440,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 960,
+        "height" : 720,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "resolution" : "95x119"
+}
